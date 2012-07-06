@@ -15,7 +15,6 @@
 		<constructor-arg ref="mappingConverter"/>
 	</bean>
 
-	<mongo:repositories base-package="org.springframework.data.mongodb.repository"
-		create-query-indexes="true" />
+	<mongo:repositories base-package="org.springframework.data.mongodb.repository" create-query-indexes="true" />
 
 </beans>
